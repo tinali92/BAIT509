@@ -1,5 +1,6 @@
 library(tidyverse)
 install.packages("knitr")
+library(knitr)
 
 set.seed(87)
 dat <- tibble(x = c(rnorm(100), rnorm(100)+5)-3,
