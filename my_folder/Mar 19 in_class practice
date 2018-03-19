@@ -2,17 +2,19 @@ Bagging is a special case of random forests under which case?
 -- when all the features are the best features for splitting a node (m = p, number of predictors are the same)
 
 What are the hyperparameters we can control for random forests?
---number of predictors
 --tree size
+--number of features and predictors
+--number of levels in each tree/branch
 
 Suppose you have the following paired data of (x,y): (1,2), (1,5), (2,0). Which of the following are valid bootstrapped data sets? Why/why not?
 (1,0), (1,2), (1,5)
 (1,2), (2,0)
 (1,2), (1,2), (1,5)
---(1,0), (1,2), (1,5) is not the valid bootstrapped data sets, because the point (1,0) is not in the given pair of data.
+--(1,0), (1,2), (1,5) is not a valid bootstrapped data sets, because the point (1,0) is not in the given pair of data.
+--(1,2), (2,0) is not a valid bootstrapped data sets, because we need three points.
+--(1,2), (1,2), (1,5) is the valid bootstrapped data sets. 
 
 For each of the above valid bootstapped data sets, which observations are out-of-bag (OOB)?
--- for (1,2), (2,0): the OOB observation is (1,5）
 -- for (1,2), (1,2), (1,5): the OOB observation is (2,0)
 
 You make a random forest consisting of four trees. You obtain a new observation of predictors, and would like to predict the response. What would your prediction be in the following cases?
