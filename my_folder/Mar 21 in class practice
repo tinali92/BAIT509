@@ -1,0 +1,32 @@
+** For (1) and (2) below, you’re choosing between two candidates to hire. Discuss the pros and cons of choosing one candidate over the other in the following situations. **
+
+1. Both are predicted to have the same productivity score of 75, but have the following probabilistic forecasts.
+
+A:
+Pros – The variance is much smaller than B; 
+       The probability at productivity score 75 is extremely high.
+Cons – The productivity score focuses in a small range, from 73 to 77.
+
+B:
+Pros – B can have higher productivity score than A;
+Cons – The variance is very large, and the productivity score is not very stable. 
+
+2. Two “non-overlapping” forecasts
+
+A:
+Pros – The variance is much smaller than B; 
+       The probability at productivity score 60 is extremely high;
+       The outcome is very predictable
+
+Cons – The productivity score is low.
+
+B:
+Pros – B can have much higher productivity score than A;
+       The mean is 20 higher than the mean of A
+       No matter where, B is always higher than A
+
+Cons – The variance is larger, and the productivity score is not very stable. 
+
+3. You’ve formed a probabilist forecast for a particular value of the predictors, displayed below as a density. You then collect test data for that same value of the predictor, indicated as the points below the density. What is the problem with the probabilistic forecast?
+
+The probabilistic forecast has the mean at response = 0, but all the points are in the range of 0 to 4. The forecast is biased toward the left. The majority points fall in the range 2 to 3, so a good forecast would have the mean at similar values.  
