@@ -1,0 +1,24 @@
+1. Construct the decision rule according to this classification boundary. How would you classify a new observation that has x1=6 and x2=10?
+-- Classify the points as class A if it falls on the left of the decision boundary (x1 = 7.5), and classify the points as class B if it falls on the right of the decision boundary. The new observation (6,10) would be classified as class A. 
+
+2. What size is the margin here?
+-- The margin is 2 units away from the decision boundary, both on the left and on the right side. 
+
+3. Which observations receive a penalty? Which observations are the support vectors?
+-- Penalty between 0 and 1: 6,7
+   Penalty between 1 and 2: 8,9
+   Penalty greater than 2: 10
+   Points 6 to 10 are the support vectors. 
+   
+4. What is the total penalty here?
+-- 0.25 + 0.25 + 1.25 + 1.75 + 2.25 = 5.75
+
+5. Can I choose a bigger margin if my total allowable penalty is 6?
+-- No we can't. If we are to increase the margin by 0.5 units --> the marginal boundaries to be at x1 = 5 and x1 = 10, we would have a total penalty of 9 points (5 to 13): 0.4 + 0.4 + 1.2 + 1.6 = 3.6. Increasing the margin would be more generous to the errors. But it's not always the case. 
+
+6. Are the data separable? If so, what are the support vectors?
+-- The data is separable, if we set up the classification boundary between points 8,11,16, and 4,7,9. The support vectors can be 4, 8, 9 and 11. 
+
+
+
+
